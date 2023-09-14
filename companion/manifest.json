@@ -1,0 +1,26 @@
+{
+	"id": "exertis-daisynet",
+	"name": "exertis-daisynet",
+	"shortname": "daisynet",
+	"description": "Module for controlling the DaisyNet device from Exertis by sending commands over Telnet",
+	"version": "0.0.1",
+	"license": "MIT",
+	"repository": "git+https://github.com/bitfocus/companion-module-exertis-daisynet.git",
+	"bugs": "https://github.com/bitfocus/companion-module-exertis-daisynet/issues",
+	"maintainers": [
+		{
+			"name": "Leon Reucher",
+			"email": "leon.reucher@ultimate-technology.de"
+		}
+	],
+	"legacyIds": [],
+	"runtime": {
+		"type": "node18",
+		"api": "nodejs-ipc",
+		"apiVersion": "0.0.0",
+		"entrypoint": "../index.js"
+	},
+	"manufacturer": "Exertis",
+	"products": ["DaisyNet"],
+	"keywords": ["daisynet"]
+}
